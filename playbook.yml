@@ -1,0 +1,7 @@
+---
+ - name: ossec
+   hosts: ossec-server.example.com
+   become: true
+   become_method: sudo
+   roles:
+   - { role: ansible-role-ossec-local, tags: [ 'ossec', 'ansible-role-ossec-local' ] }
