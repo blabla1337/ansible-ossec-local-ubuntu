@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: Glenn ten Cate
+  role_name: ansible-role-ossec-local
+  description: Installing and maintaining the ossec-agent local ubuntu
+  company: myCompany.Dotcom
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: Debian
+      versions:
+        - all
+  galaxy_tags:
+    - ossec
+    - ossecagent
+    - hids
+    - monitoring
+dependencies: []
